@@ -1,17 +1,17 @@
 {
-  "name": "bespoke-theme-voltaire",
-  "version": "1.0.1",
+  "name": "bespoke-theme-volt",
+  "version": "1.0.0",
   "description": "A theme for Bespoke.js",
-  "homepage": "https://github.com/markdalgleish/bespoke-theme-voltaire",
-  "bugs": "https://github.com/markdalgleish/bespoke-theme-voltaire/issues",
+  "homepage": "https://github.com/davidmarkclements/bespoke-theme-volt",
+  "bugs": "https://github.com/davidmarkclements/bespoke-theme-volt/issues",
   "author": {
     "name": "Mark Dalgleish",
-    "url": "https://github.com/markdalgleish"
+    "url": "https://github.com/davidmarkclements"
   },
-  "main": "./dist/bespoke-theme-voltaire.js",
+  "main": "./dist/bespoke-theme-volt.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/markdalgleish/bespoke-theme-voltaire.git"
+    "url": "git://github.com/davidmarkclements/bespoke-theme-volt.git"
   },
   "scripts": {
     "test": "gulp"

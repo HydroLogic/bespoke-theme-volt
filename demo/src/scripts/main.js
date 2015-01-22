@@ -1,5 +1,5 @@
 var bespoke = require('bespoke'),
-  voltaire = require('../../../lib/bespoke-theme-voltaire.js'),
+  voltaire = require('../../../lib/bespoke-theme-volt.js'),
   keys = require('bespoke-keys'),
   touch = require('bespoke-touch'),
   bullets = require('bespoke-bullets'),

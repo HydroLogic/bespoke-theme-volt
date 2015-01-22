@@ -69,7 +69,7 @@ gulp.task('stylus', ['clean:stylus'], function() {
 gulp.task('browserify', ['browserify:lib', 'browserify:demo']);
 
 gulp.task('browserify:lib', ['clean:browserify:lib', 'stylus'], function() {
-  return gulp.src('lib/bespoke-theme-voltaire.js')
+  return gulp.src('lib/bespoke-theme-volt.js')
     .pipe(isDemo ? plumber() : through())
     .pipe(browserify({ transform: ['brfs'], standalone: 'bespoke.themes.voltaire' }))
     .pipe(header(template([
@@ -82,7 +82,7 @@ gulp.task('browserify:lib', ['clean:browserify:lib', 'stylus'], function() {
       ' */\n\n'
     ].join('\n'), pkg)))
     .pipe(gulp.dest('dist'))
-    .pipe(rename('bespoke-theme-voltaire.min.js'))
+    .pipe(rename('bespoke-theme-volt.min.js'))
     .pipe(uglify())
     .pipe(header(template([
       '/*! <%= name %> v<%= version %> ',
